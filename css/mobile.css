@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+
+  .productos{
+    flex-direction:column;
+    height: auto;
+  }
+  .producto{
+    margin-top: auto;
+  }
+  .personas, .persona{
+    flex-direction:column;
+  }
+
+}

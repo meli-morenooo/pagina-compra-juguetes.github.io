@@ -1,0 +1,211 @@
+/* ------------------- Variables ------------------------- */
+:root {
+    --first-color:#eaf2e3;
+    --second-color:#66d7d1;
+    --third-color:#ffffff;
+    --four-color:#000000;
+    --five-color:#eeeeee;
+    --first-size-font: 10px;
+    --second-size-font: 12px;
+    --third-size-font: 15px;
+    --four-size-font: 16px;
+    --five-size-font: 20px;
+    --six-size-font: 50px;
+  }
+
+/* ---------------- Ajuste general de la página ------------- */
+html,body{
+    background: var(--first-color);
+    font-size: var(--second-size-font);
+    font-family: Helvetica;
+}
+
+/* ------------------------ Encabezado - Barra de Navegación  */
+nav{
+    display: flex;
+    font-size: var(--four-size-font);
+    background-color: var(--second-color);
+    padding: 10px;
+    color: var(--third-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand_image img{
+    width: 150px;
+    margin-left: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+  
+nav li{
+    padding-left: 20px;
+    list-style: none;
+  
+}
+  
+nav li a{
+    color: var(--four-color);
+    text-decoration: none;
+}
+  
+nav li a:hover{
+    color: var(--third-color);
+}
+
+.nav_options{
+    margin-right: 20px;
+}
+
+/* ------------------------ Sección Subtitulo -----*/
+.content-section {
+    margin: 20px;
+}
+
+.subtitulo{
+    color: var(--second-color);
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.75);
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.subtitulo h1{
+    font-size: var(--six-size-font);
+}
+
+.subtitulo i {
+    color: rgb(192, 66, 87);
+}
+
+/* ----------------------- Pie de página ------------------------------- */
+.contenedor_foot{
+    margin-top: 50px;
+    font-size: var(--second-size-font);
+}
+
+footer {
+    background-color: rgba(102, 215, 209, 0.75);
+}
+
+footer .copyright {
+    background-color: var(--second-color);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* ---------------------------- Sección de login ----------------------- */
+.boton-social {
+    padding: 0px 20px;
+    font-size: var(--five-size-font);
+}
+
+.divider:after,.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--five-color);
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+/* ---------------------------- Sección de registro ----------------------- */
+.registro{
+    background: var(--second-color);
+}
+
+/* ---------------------------- Sección de legales ----------------------- */
+.content-legales {
+    padding: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--third-size-font);
+    line-height: 2;
+}
+
+.titulo {
+    text-align: center;
+    margin: 20px 30px;
+    padding: 0px 0px 20.8px;
+}
+
+.texto-legales {
+    margin: 20px 30px;
+    padding: 0px 0px 18.2px;
+    text-align: justify;
+}
+
+/* ---------------------------- Sección de privacidad ----------------------- */
+.content-privacidad {
+    margin-top: 20px;
+    padding: 0px 30px;
+    font-size: var(--four-size-font);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+strong, .subt-priv{
+    margin: 0px 0px 2.56px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.texto-privacidad{
+    margin: 0px 0px 20.8px;
+}
+/* ---------------------------- Sección de preguntas ----------------------- */
+.content-preguntas {
+    margin: 20px 10px;
+    padding: 0px 30px;
+    font-size: var(--five-size-font);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content-preguntas ul {
+    list-style: none;
+}
+
+.subt-preg{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+/* ---------------------------- Sección de término de uso ----------------------- */
+.content-term-uso{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 30px;
+    font-size: var(--four-size-font);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content-term-uso a {
+    text-decoration: none;
+}
+
+/* ---------------------------- Sección de arrepentimiento ----------------------- */
+.content-arrepentimiento {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 30px;
+    font-size: var(--four-size-font);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content-arrep{
+    margin-left: 50%;
+}
+
+/* ---------------- index tarjeta credito ----------------- */
+.body-tarjeta-credit {
+    margin: 2em 5em;
+}

@@ -1,0 +1,103 @@
+/* Fuente de google */
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* Ajuste general del contenedor de la tarjeta para generar vista en columna*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body {
+    background: linear-gradient(90deg, #66d7d1 70%, #86f3ee 40.1%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col {
+    flex: 1 1 250px;
+}
+
+.title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.inputBox {
+    margin: 15px 0;
+}
+
+span {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+input:focus {
+    border: 1px solid #000;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+}
+
+.inputBox{
+    margin-top: 5px;
+}
+
+img {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #66d7d1;
+    color: #333;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #86f3ee;
+}
+

@@ -209,3 +209,36 @@ strong, .subt-priv{
 .body-tarjeta-credit {
     margin: 2em 5em;
 }
+
+/* ---------------- página de error ----------------- */
+.page-error {
+    justify-content: center;
+}
+
+.img-error {
+    width: 100px;
+}
+
+.page-error-row {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 4;
+}
+
+/* ---------------- página compra exitosa ----------------- */
+.page-compra-ext {
+    background: var(--second-color);
+}
+
+.page-exito {
+    justify-content: center;
+}
+
+.img-exito {
+    width: 200px;
+}
+
+.page-exito-row {
+    text-align: center;
+    margin-top: 100px;
+}

@@ -101,3 +101,7 @@ img {
     background: #86f3ee;
 }
 
+.submit-btn a {
+    text-decoration: none;
+    color: #333;
+}
